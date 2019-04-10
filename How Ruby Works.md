@@ -21,4 +21,7 @@
     ```ruby
     ruby -cw file.rb
     ```
+  - `print` vs. `puts`
+    *  `print` not add a new line, add space
+    * `puts` jump to a new line
     
