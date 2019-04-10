@@ -29,13 +29,35 @@
     
   - Keyboard and File Input
     * Keyboard
-      * `gets`
-        ```ruby
-        print "Hello. Please enter a Celsius value: " 
-        c = gets
-        f = (c.to_i * 9 / 5) + 32
-        print "The Fahrenheit equivalent is "
-        print f
-        puts "."
-        ```
+      `gets`
+
+      ```ruby
+      print "Hello. Please enter a Celsius value: " 
+      c = gets
+      f = (c.to_i * 9 / 5) + 32
+      print "The Fahrenheit equivalent is "
+      print f
+      puts "."
+
+      # shorten version
+      print "Hello. Please enter a Celsius value: "
+      print "The Fahrenheit equivalent is ", gets.to_i * 9 / 5 + 32, 
+      ".\n"
+      ```
+      
+    * File
+      ```ruby
+      num = File.read("temp.dat")
+      ```
+    * Write File
+      ```ruby
+      c = gets.to_i
+      f = (c * 9 / 5) + 32
+      fh = File.new("temp.out", "w")
+      fh.puts f # print to the output file
+      fh.close
+      ```
+      
+        
+        
     
