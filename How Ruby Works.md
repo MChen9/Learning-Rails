@@ -78,7 +78,12 @@
       m = CtoFin.new()
       m.start(34)
       ```
-    
+
+2. Get the Path Where Ruby installed
+  ```shell
+  irb -rrbconfig
+  RbConfig::CONFIG["bindir"]
+  ```
       
         
         
