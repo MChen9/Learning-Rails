@@ -89,6 +89,35 @@
   ```shell
   $ echo "2.6.1" > .ruby-version
   ```
+
+4. `ERb`
+  - If you want some Ruby code executed, enclose it between <% and %>
+  - If you want the result of the code execution to be printed out, as part of the output, enclose the code between <%= and %>
+    ```ruby
+    # save as erbdemo.rb
+    <% page_title = "Demonstration of ERb" %> <% salutation = "Dear programmer," %> <html>
+    <head>
+    <title><%= page_title %></title>
+    </head>
+    <body>
+    <p><%= salutation %></p>
+    <p>This is a brief demonstration of how ERb fills out a template.</p> </body>
+    </html>
+    ```
+    ```shell
+    $ erb erbdemo.rb
+    ```
+    output:
+    ```
+    <html>
+    <head>
+    <title>Demonstration of ERb</title>
+    </head>
+    <body>
+    <p>Dear programmer,</p>
+    <p>This is a brief demonstration of how ERb fills out a template.</p> </body>
+    </html>
+    ```
       
         
         
