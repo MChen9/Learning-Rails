@@ -57,6 +57,26 @@
       fh.puts f # print to the output file
       fh.close
       ```
+ 
+  - Using classes from other files
+    * `require_relative`
+      ```ruby
+      # file c2fin.rb
+      class CtoFin
+        def start(c)
+          f = (c * 9 / 5) + 32
+          puts "The number is " + c.to_s 
+          print "Result: "
+          puts f
+        end # code block should with _end_
+      end
+
+      # file c2fout.rb
+      require_relative 'c2fin'
+      m = CtoFin.new()
+      m.start(34)
+      ```
+    
       
         
         
