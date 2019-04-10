@@ -17,11 +17,25 @@
         # code
     end
     ```
+    
   - Check Syntax Error
     ```ruby
     ruby -cw file.rb
     ```
+    
   - `print` vs. `puts`
-    *  `print` not add a new line, add space
+    *  `print` not add a new line
     * `puts` jump to a new line
+    
+  - Keyboard and File Input
+    * Keyboard
+      * `gets`
+        ```ruby
+        print "Hello. Please enter a Celsius value: " 
+        c = gets
+        f = (c.to_i * 9 / 5) + 32
+        print "The Fahrenheit equivalent is "
+        print f
+        puts "."
+        ```
     
