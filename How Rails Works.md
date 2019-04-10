@@ -11,7 +11,7 @@
     $ rails generate controller main welcome 
     ```
 
-2. PostgresSQL
+2. PostgreSQL
   - Change user on shell 
     ```shell
     $ sudo su username
