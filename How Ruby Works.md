@@ -84,6 +84,11 @@
   irb -rrbconfig
   RbConfig::CONFIG["bindir"]
   ```
+
+3. Change Ruby Version
+  ```shell
+  $ echo "2.6.1" > .ruby-version
+  ```
       
         
         
