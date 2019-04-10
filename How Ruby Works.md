@@ -118,6 +118,14 @@
     <p>This is a brief demonstration of how ERb fills out a template.</p> </body>
     </html>
     ```
+
+5. `echo`
+  ```shell
+  $ echo "string" >> file
+  $ echo "string" > file 
+  ```
+  * First one is appending
+  * Second one is replacing
       
         
         
