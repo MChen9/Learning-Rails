@@ -60,6 +60,8 @@
  
   - Using classes from other files
     * `require_relative`
+      * `require`similar to  `import`
+      * `require_relative` for files in the same directory
       ```ruby
       # file c2fin.rb
       class CtoFin
