@@ -126,7 +126,12 @@
   ```
   * First one is appending
   * Second one is replacing
-      
+
+6. Inheritance
+  ```ruby
+  # inherit the Object ActionRecord::Base
+  class Work < ActionRecord::Base
+  ```
         
         
     
