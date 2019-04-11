@@ -6,4 +6,5 @@
 - [x] install Ruby (rbenv (set .ruby-version to 2.6.1), rails new learn_rails -T, postman)
 
 *04/10/2019*
-- [ ] How Rails works (first 2 chapters)
+- [x] How Rails works (first 2 chapters)
+- [x] hello rails project
