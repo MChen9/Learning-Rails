@@ -8,3 +8,7 @@
 *04/10/2019*
 - [x] How Rails works (first 2 chapters)
 - [x] hello rails project
+
+*04/11/2019*
+- [ ] controller codes
+- [ ] 
