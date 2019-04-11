@@ -32,4 +32,8 @@
   ```html
   <h1>Hello, Rails!</h1>
   ```
+7. Start Server
+  ```shell
+  $ rails server
+  ```
   
