@@ -8,18 +8,10 @@
   ```shell
   $ cd blog
   ```
-3. Configuring a PostgreSQL Database
+3. ~~Configuring a PostgreSQL Database
   - If you choose to use PostgreSQL, your config/database.yml will be customized to use PostgreSQL databases
-  - Change the username and password in the development section as appropriate
-  ```
-  development:
-  adapter: postgresql
-  encoding: unicode
-  database: blog_development
-  pool: 5
-  username: blog
-  password:
-  ```
+  ~~- Change the username and password in the development section as appropriate~~
+  
 4. Creating the Database
   ```shell
   $ rake db:create
