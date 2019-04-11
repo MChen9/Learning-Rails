@@ -1,4 +1,4 @@
-## Ruby on Rails Helloworld Project
+## Ruby on Rails Hello, Rails! Project
 
 1. Create blog application, use PostgreSQL as database
   ```shell
